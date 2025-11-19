@@ -4,7 +4,7 @@
 
 namespace TwoSum
 {
-    internal class Program
+    internal class Solution
     {
         /// <summary>
         /// Finds the indices of the two numbers that add up to the target.
