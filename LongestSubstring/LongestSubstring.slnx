@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LongestSubstring/LongestSubstring.csproj" />
+  <Project Path="LongestSubstringTests/LongestSubstringTests.csproj" />
+</Solution>
