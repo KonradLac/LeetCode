@@ -75,7 +75,7 @@ namespace AddTwoNumbers
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL - LeetCode Add Two Numbers + Appropriate Tests");
+            Console.WriteLine("KonradL LeetCode Add Two Numbers + Appropriate Tests");
             Console.ResetColor();
         }
     }

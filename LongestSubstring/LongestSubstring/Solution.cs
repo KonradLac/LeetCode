@@ -42,7 +42,7 @@ namespace LongestSubstring
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL LeetCode Longest Substring Without Repetitions - Two Pointer");
+            Console.WriteLine("KonradL LeetCode Longest Substring Without Repetitions + Appropriate Tests");
             Console.ResetColor();
         }
     }

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.csproj" />
+  <Project Path="MedianOfTwoSortedArraysTests/MedianOfTwoSortedArraysTests.csproj" />
+</Solution>

@@ -48,7 +48,7 @@ namespace TwoSum
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL, Leet Code Two Sum + Aproppriate Tests");
+            Console.WriteLine("KonradL Leet Code Two Sum + Aproppriate Tests");
             Console.ResetColor();
         }
     }
