@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ZigzagConversion/ZigzagConversion.csproj" />
+  <Project Path="ZigzagConversionTests/ZigzagConversionTests.csproj" Id="fb796ee3-f2cc-483b-80c5-7a73bb47cce9" />
+</Solution>
