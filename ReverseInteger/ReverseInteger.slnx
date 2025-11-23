@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ReverseInteger/ReverseInteger.csproj" />
+  <Project Path="ReverseIntegerTests/ReverseIntegerTests.csproj" />
+</Solution>
