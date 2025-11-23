@@ -45,10 +45,17 @@ namespace TwoSum
                 throw new ArgumentException("No two sum solution exists.");
             }
         }
+
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("KonradL Leet Code Two Sum + Aproppriate Tests");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Optimised Hash Map approach");
+            Console.WriteLine("Time Complexity: O(n)");
+            Console.WriteLine("Space Complexity: O(n)");
+            Console.ForegroundColor= ConsoleColor.Yellow;
+            Console.WriteLine(@"https://leetcode.com/problems/two-sum");
             Console.ResetColor();
         }
     }

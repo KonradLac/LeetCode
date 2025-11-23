@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LongestPalindromicSubstring/LongestPalindromicSubstring.csproj" />
+  <Project Path="LongestPalindromicSubstringTests/LongestPalindromicSubstringTests.csproj" />
+</Solution>

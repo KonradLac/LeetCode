@@ -43,6 +43,11 @@ namespace LongestSubstring
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("KonradL LeetCode Longest Substring Without Repetitions + Appropriate Tests");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Time complexity: O(n)");
+            Console.WriteLine("Space complexity: O(min(m, n))");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(@"https://leetcode.com/problems/longest-substring-without-repeating-characters/");
             Console.ResetColor();
         }
     }

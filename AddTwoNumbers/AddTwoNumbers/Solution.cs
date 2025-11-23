@@ -76,6 +76,11 @@ namespace AddTwoNumbers
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("KonradL LeetCode Add Two Numbers + Appropriate Tests");
+            Console.ForegroundColor= ConsoleColor.Blue;
+            Console.WriteLine("Time Complexity: O(max(m,n))");
+            Console.WriteLine("Space Complexity: O(max(m,n))");
+            Console.ForegroundColor = ConsoleColor.Yellow; 
+            Console.WriteLine(@"https://leetcode.com/problems/add-two-numbers/");
             Console.ResetColor();
         }
     }

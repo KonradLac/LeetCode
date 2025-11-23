@@ -56,10 +56,17 @@ namespace MedianOfTwoSortedArrays
             }
 
         }
+
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("KonradL LeetCode Median of Two Sorted Arrays + Appropriate Tests");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Binary Search approach");
+            Console.WriteLine("Time complexity: O(log min(m, n))");
+            Console.WriteLine("Space complexity: O(1)");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(@"https://leetcode.com/problems/median-of-two-sorted-arrays");
             Console.ResetColor();
         }
     }
