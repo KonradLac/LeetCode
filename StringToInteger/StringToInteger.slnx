@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="StringToInteger/StringToInteger.csproj" />
+  <Project Path="StringToIntegerTests/StringToIntegerTests.csproj" Id="093416a7-b508-4c29-a5de-0bdc5a528883" />
+</Solution>
