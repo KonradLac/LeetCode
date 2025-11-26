@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PalindromeNumber/PalindromeNumber.csproj" />
+  <Project Path="PalindromeNumberTests/PalindromeNumberTests.csproj" />
+</Solution>
