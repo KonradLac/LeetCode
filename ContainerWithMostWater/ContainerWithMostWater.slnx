@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ContainerWithMostWater/ContainerWithMostWater.csproj" />
+  <Project Path="MostWaterTests/MostWaterTests.csproj" Id="ddd9d2fe-82ee-47c0-bede-cf22dc00fcaa" />
+</Solution>
