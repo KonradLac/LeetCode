@@ -31,7 +31,7 @@ namespace PalindromeNumber
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL LeetCode Palindorme Number");
+            Console.WriteLine("KonradL LeetCode Palindrome Number");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Comparing the reversed number with the original number.");
             Console.WriteLine("Time Complexity: O(log(n))");

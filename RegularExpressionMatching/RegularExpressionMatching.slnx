@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RegularExpressionMatching/RegularExpressionMatching.csproj" />
+  <Project Path="RegularExpressionMatchingTests/RegularExpressionMatchingTests.csproj" Id="904e466e-8f9f-4434-b401-c4033b54e2ba" />
+</Solution>
