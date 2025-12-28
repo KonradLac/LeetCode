@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConversionTests/ConversionTests.csproj" Id="ae004c99-6c32-4810-a7c6-983cec2c350f" />
+  <Project Path="RomanIntConversion/RomanIntConversion.csproj" />
+</Solution>
