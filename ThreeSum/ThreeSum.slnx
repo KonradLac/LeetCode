@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ThreeSum/3Sum.csproj" />
+  <Project Path="ThreeSumTests/ThreeSumTests.csproj" Id="1ee91940-d3b7-4ec8-adbe-47f5aad2d0dd" />
+</Solution>
