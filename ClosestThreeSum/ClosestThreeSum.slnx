@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ClosestThreeSum/ClosestThreeSum.csproj" />
+  <Project Path="ClosestThreeSumTests/ClosestThreeSumTests.csproj" Id="6034fa93-ab0b-447a-b32f-36c2406f1ab4" />
+</Solution>
