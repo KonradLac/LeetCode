@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FourSumLC/FourSumLC.csproj" />
+  <Project Path="FourSumLCTests/FourSumLCTests.csproj" />
+</Solution>
