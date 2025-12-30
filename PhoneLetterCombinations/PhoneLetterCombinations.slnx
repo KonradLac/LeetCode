@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PhoneLetterCombinations/PhoneLetterCombinations.csproj" />
+  <Project Path="PhoneLetterCombinationsTests/PhoneLetterCombinationsTests.csproj" />
+</Solution>
