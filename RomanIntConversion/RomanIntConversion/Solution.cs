@@ -63,7 +63,7 @@ namespace RomanIntConversion
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL LeetCode Roman to Integer and Integer to Roman Conversion");
+            Console.WriteLine("KonradL LeetCode Roman to Integer and Integer to Roman Conversion + Appropriate Tests");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Tries and errors to get familiar with C#");
             Console.ForegroundColor = ConsoleColor.Yellow;

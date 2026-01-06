@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("TwoSumTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("TwoSumTests")]
 
 namespace TwoSum
 {
@@ -13,7 +11,7 @@ namespace TwoSum
         /// <param name="target"></param>
         /// <returns></returns>
         /// <exception cref="ArgumentException"></exception>
-        internal static int[] TwoSum(int[] nums, int target)
+        internal static int[] TwoSumCalculation(int[] nums, int target)
         {
             if (nums.Length < 2)
             {

@@ -45,7 +45,7 @@ namespace ClosestThreeSum
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL Three Sum Closest + Appropriate Tests");
+            Console.WriteLine("KonradL LeetCode Three Sum Closest + Appropriate Tests");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Two Pointer Approach");
             Console.WriteLine("Time Complexity: O(n^2)");

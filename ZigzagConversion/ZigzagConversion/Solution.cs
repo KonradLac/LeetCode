@@ -1,7 +1,6 @@
-﻿using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Text;
 
-[assembly: InternalsVisibleTo("ZigzagConversionTests")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("ZigzagConversionTests")]
 
 namespace ZigzagConversion
 {
@@ -16,7 +15,7 @@ namespace ZigzagConversion
         /// <param name="numberOfRows">The number of rows to use in the zigzag pattern. Must be greater than zero.</param>
         /// <returns>A string representing the input arranged in a zigzag pattern and read row by row. If the number of rows is 1
         /// or greater than or equal to the length of the string, the original string is returned.</returns>
-        internal static string Convert(string s, int numberOfRows)
+        internal static string ConvertZigZag(string s, int numberOfRows)
         {
             if(numberOfRows == 1 || s.Length <= numberOfRows)
             {

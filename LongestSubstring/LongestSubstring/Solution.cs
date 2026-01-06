@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("LongestSubstringTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("LongestSubstringTests")]
 
 namespace LongestSubstring
 {

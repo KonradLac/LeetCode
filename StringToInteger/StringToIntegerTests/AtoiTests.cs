@@ -1,4 +1,4 @@
-﻿using StringToInteger;
+﻿using static StringToInteger.Solution;
 
 namespace StringToIntegerTests
 {
@@ -9,7 +9,7 @@ namespace StringToIntegerTests
         {
             string input = "42";
             int expected = 42;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -18,7 +18,7 @@ namespace StringToIntegerTests
         {
             string input = "   -42";
             int expected = -42;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -27,7 +27,7 @@ namespace StringToIntegerTests
         {
             string input = "4193 with words";
             int expected = 4193;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -36,7 +36,7 @@ namespace StringToIntegerTests
         {
             string input = "words and 987";
             int expected = 0;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -45,7 +45,7 @@ namespace StringToIntegerTests
         {
             string input = "-91283472332";
             int expected = int.MinValue;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -54,7 +54,7 @@ namespace StringToIntegerTests
         {
             string input = "0032";
             int expected = 32;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -63,7 +63,7 @@ namespace StringToIntegerTests
         {
             string input = "+1";
             int expected = 1;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -72,7 +72,7 @@ namespace StringToIntegerTests
         {
             string input = "   +0 123";
             int expected = 0;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -81,7 +81,7 @@ namespace StringToIntegerTests
         {
             string input = "-000000000000001";
             int expected = -1;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -90,7 +90,7 @@ namespace StringToIntegerTests
         {
             string input = "2147483648";
             int expected = int.MaxValue;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -99,7 +99,7 @@ namespace StringToIntegerTests
         {
             string input = "+";
             int expected = 0;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -108,7 +108,7 @@ namespace StringToIntegerTests
         {
             string input = "-";
             int expected = 0;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
 
@@ -117,7 +117,7 @@ namespace StringToIntegerTests
         {
             string input = "20000000000000000000";
             int expected = int.MaxValue;
-            int result = Solution.MyAtoi(input);
+            int result = MyAtoi(input);
             Assert.Equal(expected, result);
         }
     }

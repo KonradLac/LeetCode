@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("MostWaterTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("MostWaterTests")]
 
 namespace ContainerWithMostWater
 {

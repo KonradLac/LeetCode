@@ -1,4 +1,4 @@
-﻿using LongestPalindromicSubstring;
+﻿using static LongestPalindromicSubstring.Solution;
 
 namespace LongestPalindromicSubstringTests
 {
@@ -10,7 +10,7 @@ namespace LongestPalindromicSubstringTests
             string input = "babad";
             string expected1 = "bab";
             string expected2 = "aba";
-            string result = Solution.LongestPalindrome(input);
+            string result = LongestPalindrome(input);
             Assert.Equal(expected1, result);
         }
 
@@ -19,7 +19,7 @@ namespace LongestPalindromicSubstringTests
         {
             string input = "cbbd";
             string expected = "bb";
-            string result = Solution.LongestPalindrome(input);
+            string result = LongestPalindrome(input);
             Assert.Equal(expected, result);
         }
 
@@ -28,7 +28,7 @@ namespace LongestPalindromicSubstringTests
         {
             string input = "a";
             string expected = "a";
-            string result = Solution.LongestPalindrome(input);
+            string result = LongestPalindrome(input);
             Assert.Equal(expected, result);
         }
 
@@ -37,7 +37,7 @@ namespace LongestPalindromicSubstringTests
         {
             string input = "aacabdkacaa";
             string expected1 = "aca";
-            string result = Solution.LongestPalindrome(input);
+            string result = LongestPalindrome(input);
             Assert.Equal(expected1, result);
         }
     }

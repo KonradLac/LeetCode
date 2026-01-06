@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("ReverseIntegerTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("ReverseIntegerTests")]
 
 namespace ReverseInteger
 {

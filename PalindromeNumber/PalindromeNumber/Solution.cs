@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("PalindromeNumberTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("PalindromeNumberTests")]
 
 namespace PalindromeNumber
 {

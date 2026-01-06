@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("RegularExpressionMatchingTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("RegularExpressionMatchingTests")]
 
 namespace RegularExpressionMatching
 {

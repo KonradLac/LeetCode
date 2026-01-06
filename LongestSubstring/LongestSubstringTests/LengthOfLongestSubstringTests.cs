@@ -1,4 +1,4 @@
-﻿using LongestSubstring;
+﻿using static LongestSubstring.Solution;
 
 namespace LongestSubstringTests
 {
@@ -9,7 +9,7 @@ namespace LongestSubstringTests
         {
             string testInput = "abcabcbb";
             int expectedOutput = 3;
-            int actualOutput = Solution.LengthOfLongestSubstring(testInput);
+            int actualOutput = LengthOfLongestSubstring(testInput);
             Assert.Equal(expectedOutput, actualOutput);
         }
 
@@ -18,7 +18,7 @@ namespace LongestSubstringTests
         {
             string testInput = "bbbbb";
             int expectedOutput = 1;
-            int actualOutput = Solution.LengthOfLongestSubstring(testInput);
+            int actualOutput = LengthOfLongestSubstring(testInput);
             Assert.Equal(expectedOutput, actualOutput);
         }
 
@@ -27,7 +27,7 @@ namespace LongestSubstringTests
         {
             string testInput = "pwwkew";
             int expectedOutput = 3;
-            int actualOutput = Solution.LengthOfLongestSubstring(testInput);
+            int actualOutput = LengthOfLongestSubstring(testInput);
             Assert.Equal(expectedOutput, actualOutput);
         }
 
@@ -36,7 +36,7 @@ namespace LongestSubstringTests
         {
             string testInput = "";
             int expectedOutput = 0;
-            int actualOutput = Solution.LengthOfLongestSubstring(testInput);
+            int actualOutput = LengthOfLongestSubstring(testInput);
             Assert.Equal(expectedOutput, actualOutput);
         }
     }

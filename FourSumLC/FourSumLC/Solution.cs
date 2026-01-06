@@ -67,7 +67,7 @@ namespace FourSumLC
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL 4Sum + Appropriate Tests");
+            Console.WriteLine("KonradL LeetCode 4Sum + Appropriate Tests");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Two Pointer Approach, modified 3Sum");
             Console.WriteLine("Time complexity: O(n^3)");

@@ -1,7 +1,6 @@
-﻿using System.Runtime.CompilerServices;
-using System.Text;
+﻿using System.Text;
 
-[assembly: InternalsVisibleTo("LongestPalindromicSubstringTests")]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("LongestPalindromicSubstringTests")]
 
 namespace LongestPalindromicSubstring
 {
@@ -108,7 +107,7 @@ namespace LongestPalindromicSubstring
             Console.WriteLine("Time complexity: O(n)");
             Console.WriteLine("Space complexity: O(n)");
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(@"https://leetcode.com/problems/longest-palindromic-substring");
+            Console.WriteLine(@"https://leetcode.com/problems/longest-palindromic-substring/");
             Console.ResetColor();
         }
     }

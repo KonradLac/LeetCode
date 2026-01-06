@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("MedianOfTwoSortedArraysTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("MedianOfTwoSortedArraysTests")]
 
 namespace MedianOfTwoSortedArrays
 {
@@ -66,7 +64,7 @@ namespace MedianOfTwoSortedArrays
             Console.WriteLine("Time complexity: O(log min(m, n))");
             Console.WriteLine("Space complexity: O(1)");
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(@"https://leetcode.com/problems/median-of-two-sorted-arrays");
+            Console.WriteLine(@"https://leetcode.com/problems/median-of-two-sorted-arrays/");
             Console.ResetColor();
         }
     }

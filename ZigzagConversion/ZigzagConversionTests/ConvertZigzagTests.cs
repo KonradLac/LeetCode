@@ -1,4 +1,4 @@
-﻿using ZigzagConversion;
+﻿using static ZigzagConversion.Solution;
 
 namespace ZigzagConversionTests
 {
@@ -10,7 +10,7 @@ namespace ZigzagConversionTests
             string input = "PAYPALISHIRING";
             int numRows = 3;
             string expected = "PAHNAPLSIIGYIR";
-            string actual = Solution.Convert(input, numRows);
+            string actual = ConvertZigZag(input, numRows);
             Assert.Equal(expected, actual);
         }
 
@@ -20,7 +20,7 @@ namespace ZigzagConversionTests
             string input = "PAYPALISHIRING";
             int numRows = 4;
             string expected = "PINALSIGYAHRPI";
-            string actual = Solution.Convert(input, numRows);
+            string actual = ConvertZigZag(input, numRows);
             Assert.Equal(expected, actual);
         }
 
@@ -30,7 +30,7 @@ namespace ZigzagConversionTests
             string input = "A";
             int numRows = 1;
             string expected = "A";
-            string actual = Solution.Convert(input, numRows);
+            string actual = ConvertZigZag(input, numRows);
             Assert.Equal(expected, actual);
         }
 
@@ -40,7 +40,7 @@ namespace ZigzagConversionTests
             string input = "ABCD";
             int numRows = 2;
             string expected = "ACBD";
-            string actual = Solution.Convert(input, numRows);
+            string actual = ConvertZigZag(input, numRows);
             Assert.Equal(expected, actual);
         }
     }

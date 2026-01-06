@@ -1,7 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using System.Text;
-
-[assembly: InternalsVisibleTo("StringToIntegerTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("StringToIntegerTests")]
 
 namespace StringToInteger
 {

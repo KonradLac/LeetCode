@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-[assembly: InternalsVisibleTo("AddTwoNumbersTests")]
+﻿[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("AddTwoNumbersTests")]
 
 namespace AddTwoNumbers
 {
@@ -26,7 +24,7 @@ namespace AddTwoNumbers
         /// <param name="l1"></param>
         /// <param name="l2"></param>
         /// <returns></returns>
-        internal static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+        internal static ListNode AddTwoNumbersFromNodes(ListNode l1, ListNode l2)
         {
             ListNode result = new ListNode();
             ListNode currentNode = result;
@@ -77,6 +75,7 @@ namespace AddTwoNumbers
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("KonradL LeetCode Add Two Numbers + Appropriate Tests");
             Console.ForegroundColor= ConsoleColor.Blue;
+            Console.WriteLine("Two Pointer Approach");
             Console.WriteLine("Time Complexity: O(max(m,n))");
             Console.WriteLine("Space Complexity: O(max(m,n))");
             Console.ForegroundColor = ConsoleColor.Yellow; 

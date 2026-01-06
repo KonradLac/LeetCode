@@ -66,7 +66,7 @@ namespace PhoneLetterCombinations
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("KonradL Letter Combinations of a phone number + Appropriate Tests");
+            Console.WriteLine("KonradL LeetCode Letter Combinations of a phone number + Appropriate Tests");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Brute force");
             Console.WriteLine("Time complexity: O(n * m), where n is the length of the input digits and m is the average number of letters per digit.");

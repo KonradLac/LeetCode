@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RemoveNodeFromEnd/RemoveNodeFromEnd.csproj" />
+  <Project Path="RemoveNodeFromEndTests/RemoveNodeFromEndTests.csproj" Id="5b9d6d38-82a7-4188-9a8c-f55960bb171b" />
+</Solution>
