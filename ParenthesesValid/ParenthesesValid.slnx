@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ParenthesesValid/ParenthesesValid.csproj" />
+  <Project Path="ParenthesesValidTests/ParenthesesValidTests.csproj" />
+</Solution>
