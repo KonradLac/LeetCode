@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ListMerge/ListMerge.csproj" />
+  <Project Path="ListMergeTests/ListMergeTests.csproj" />
+</Solution>
