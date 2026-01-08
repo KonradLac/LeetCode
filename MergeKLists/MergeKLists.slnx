@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MergeKLists/MergeKLists.csproj" />
+  <Project Path="MergeKListsTests/MergeKListsTests.csproj" />
+</Solution>
