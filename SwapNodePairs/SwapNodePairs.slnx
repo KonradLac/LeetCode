@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SwapNodePairs/SwapNodePairs.csproj" />
+  <Project Path="SwapNodePairsTests/SwapNodePairsTests.csproj" />
+</Solution>
