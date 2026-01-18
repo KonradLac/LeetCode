@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ReverseNodesGroups/ReverseNodesGroups.csproj" />
+  <Project Path="ReverseNodesGroupsTests/ReverseNodesGroupsTests.csproj" />
+</Solution>
