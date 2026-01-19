@@ -36,8 +36,8 @@ namespace ReverseNodesGroups
                 return head;
             }
             ListNode curr = head;
-            ListNode tail = null;
-            ListNode newHead = null;
+            ListNode? tail = null;
+            ListNode? newHead = null;
             while (curr != null)
             {
                 int count = 0;
@@ -49,7 +49,7 @@ namespace ReverseNodesGroups
                 }
                 if (count == k)
                 {
-                    ListNode prev = null;
+                    ListNode? prev = null;
                     ListNode node = curr;
                     for (int i = 0; i < k; i++)
                     {
@@ -58,23 +58,14 @@ namespace ReverseNodesGroups
                         prev = node;
                         node = nextNode;
                     }
-                    if (newHead == null)
-                    {
-                        newHead = prev;
-                    }
-                    if (tail != null)
-                    {
-                        tail.next = prev;
-                    }
+                    newHead ??= prev;
+                    tail?.next = prev;
                     tail = curr;
                     curr = temp;
                 }
                 else
                 {
-                    if (tail != null)
-                    {
-                        tail.next = curr;
-                    }
+                    tail?.next = curr;
                     break;
                 }
             }

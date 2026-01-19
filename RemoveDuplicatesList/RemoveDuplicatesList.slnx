@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RemoveDuplicatesList/RemoveDuplicatesList.csproj" />
+  <Project Path="RemoveDuplicatesListTests/RemoveDuplicatesListTests.csproj" />
+</Solution>
